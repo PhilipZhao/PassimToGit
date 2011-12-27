@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4DABC7714AA693100E27812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DABC7614AA693100E27812 /* UIKit.framework */; };
+		E4DABC7914AA693100E27812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DABC7814AA693100E27812 /* Foundation.framework */; };
+		E4DABC7B14AA693100E27812 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DABC7A14AA693100E27812 /* CoreGraphics.framework */; };
+		E4DABC8114AA693100E27812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4DABC7F14AA693100E27812 /* InfoPlist.strings */; };
+		E4DABC8314AA693100E27812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DABC8214AA693100E27812 /* main.m */; };
+		E4DABC8714AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DABC8614AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m */; };
+		E4DABC8A14AA693100E27812 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DABC8814AA693100E27812 /* MainStoryboard_iPhone.storyboard */; };
+		E4DABC8D14AA693100E27812 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DABC8B14AA693100E27812 /* MainStoryboard_iPad.storyboard */; };
+		E4DABC9014AA693200E27812 /* helloWorldAppToGitHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DABC8F14AA693200E27812 /* helloWorldAppToGitHubViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4DABC7214AA693100E27812 /* helloWorldAppToGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorldAppToGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DABC7614AA693100E27812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4DABC7814AA693100E27812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4DABC7A14AA693100E27812 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4DABC7E14AA693100E27812 /* helloWorldAppToGitHub-Info.plist */ = {isa = PBXFileReference; path = "helloWorldAppToGitHub-Info.plist"; sourceTree = "<group>"; };
+		E4DABC8014AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4DABC8214AA693100E27812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4DABC8414AA693100E27812 /* helloWorldAppToGitHub-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorldAppToGitHub-Prefix.pch"; sourceTree = "<group>"; };
+		E4DABC8514AA693100E27812 /* helloWorldAppToGitHubAppDelegate.h */ = {isa = PBXFileReference; path = helloWorldAppToGitHubAppDelegate.h; sourceTree = "<group>"; };
+		E4DABC8614AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldAppToGitHubAppDelegate.m; sourceTree = "<group>"; };
+		E4DABC8914AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E4DABC8C14AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E4DABC8E14AA693100E27812 /* helloWorldAppToGitHubViewController.h */ = {isa = PBXFileReference; path = helloWorldAppToGitHubViewController.h; sourceTree = "<group>"; };
+		E4DABC8F14AA693200E27812 /* helloWorldAppToGitHubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldAppToGitHubViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4DABC6F14AA693100E27812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DABC7714AA693100E27812 /* UIKit.framework in Frameworks */,
+				E4DABC7914AA693100E27812 /* Foundation.framework in Frameworks */,
+				E4DABC7B14AA693100E27812 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4DABC6714AA693100E27812 = {
+			isa = PBXGroup;
+			children = (
+				E4DABC7C14AA693100E27812 /* helloWorldAppToGitHub */,
+				E4DABC7514AA693100E27812 /* Frameworks */,
+				E4DABC7314AA693100E27812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4DABC7314AA693100E27812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4DABC7214AA693100E27812 /* helloWorldAppToGitHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DABC7514AA693100E27812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DABC7614AA693100E27812 /* UIKit.framework */,
+				E4DABC7814AA693100E27812 /* Foundation.framework */,
+				E4DABC7A14AA693100E27812 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4DABC7C14AA693100E27812 /* helloWorldAppToGitHub */ = {
+			isa = PBXGroup;
+			children = (
+				E4DABC8514AA693100E27812 /* helloWorldAppToGitHubAppDelegate.h */,
+				E4DABC8614AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m */,
+				E4DABC8814AA693100E27812 /* MainStoryboard_iPhone.storyboard */,
+				E4DABC8B14AA693100E27812 /* MainStoryboard_iPad.storyboard */,
+				E4DABC8E14AA693100E27812 /* helloWorldAppToGitHubViewController.h */,
+				E4DABC8F14AA693200E27812 /* helloWorldAppToGitHubViewController.m */,
+				E4DABC7D14AA693100E27812 /* Supporting Files */,
+			);
+			path = helloWorldAppToGitHub;
+			sourceTree = "<group>";
+		};
+		E4DABC7D14AA693100E27812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DABC7E14AA693100E27812 /* helloWorldAppToGitHub-Info.plist */,
+				E4DABC7F14AA693100E27812 /* InfoPlist.strings */,
+				E4DABC8214AA693100E27812 /* main.m */,
+				E4DABC8414AA693100E27812 /* helloWorldAppToGitHub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4DABC7114AA693100E27812 /* helloWorldAppToGitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DABC9314AA693200E27812 /* Build configuration list for PBXNativeTarget "helloWorldAppToGitHub" */;
+			buildPhases = (
+				E4DABC6E14AA693100E27812 /* Sources */,
+				E4DABC6F14AA693100E27812 /* Frameworks */,
+				E4DABC7014AA693100E27812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloWorldAppToGitHub;
+			productName = helloWorldAppToGitHub;
+			productReference = E4DABC7214AA693100E27812 /* helloWorldAppToGitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DABC6914AA693100E27812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Wisconsin-Madison";
+			};
+			buildConfigurationList = E4DABC6C14AA693100E27812 /* Build configuration list for PBXProject "helloWorldAppToGitHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4DABC6714AA693100E27812;
+			productRefGroup = E4DABC7314AA693100E27812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4DABC7114AA693100E27812 /* helloWorldAppToGitHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4DABC7014AA693100E27812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DABC8114AA693100E27812 /* InfoPlist.strings in Resources */,
+				E4DABC8A14AA693100E27812 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E4DABC8D14AA693100E27812 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4DABC6E14AA693100E27812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DABC8314AA693100E27812 /* main.m in Sources */,
+				E4DABC8714AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m in Sources */,
+				E4DABC9014AA693200E27812 /* helloWorldAppToGitHubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4DABC7F14AA693100E27812 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DABC8014AA693100E27812 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4DABC8814AA693100E27812 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DABC8914AA693100E27812 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E4DABC8B14AA693100E27812 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DABC8C14AA693100E27812 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4DABC9114AA693200E27812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4DABC9214AA693200E27812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4DABC9414AA693200E27812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorldAppToGitHub/helloWorldAppToGitHub-Prefix.pch";
+				INFOPLIST_FILE = "helloWorldAppToGitHub/helloWorldAppToGitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4DABC9514AA693200E27812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorldAppToGitHub/helloWorldAppToGitHub-Prefix.pch";
+				INFOPLIST_FILE = "helloWorldAppToGitHub/helloWorldAppToGitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4DABC6C14AA693100E27812 /* Build configuration list for PBXProject "helloWorldAppToGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DABC9114AA693200E27812 /* Debug */,
+				E4DABC9214AA693200E27812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DABC9314AA693200E27812 /* Build configuration list for PBXNativeTarget "helloWorldAppToGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DABC9414AA693200E27812 /* Debug */,
+				E4DABC9514AA693200E27812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4DABC6914AA693100E27812 /* Project object */;
+}
