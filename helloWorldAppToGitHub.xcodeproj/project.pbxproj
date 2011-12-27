@@ -23,15 +23,15 @@
 		E4DABC7614AA693100E27812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4DABC7814AA693100E27812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4DABC7A14AA693100E27812 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E4DABC7E14AA693100E27812 /* helloWorldAppToGitHub-Info.plist */ = {isa = PBXFileReference; path = "helloWorldAppToGitHub-Info.plist"; sourceTree = "<group>"; };
+		E4DABC7E14AA693100E27812 /* helloWorldAppToGitHub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloWorldAppToGitHub-Info.plist"; sourceTree = "<group>"; };
 		E4DABC8014AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4DABC8214AA693100E27812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4DABC8414AA693100E27812 /* helloWorldAppToGitHub-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorldAppToGitHub-Prefix.pch"; sourceTree = "<group>"; };
-		E4DABC8514AA693100E27812 /* helloWorldAppToGitHubAppDelegate.h */ = {isa = PBXFileReference; path = helloWorldAppToGitHubAppDelegate.h; sourceTree = "<group>"; };
+		E4DABC8414AA693100E27812 /* helloWorldAppToGitHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloWorldAppToGitHub-Prefix.pch"; sourceTree = "<group>"; };
+		E4DABC8514AA693100E27812 /* helloWorldAppToGitHubAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorldAppToGitHubAppDelegate.h; sourceTree = "<group>"; };
 		E4DABC8614AA693100E27812 /* helloWorldAppToGitHubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldAppToGitHubAppDelegate.m; sourceTree = "<group>"; };
 		E4DABC8914AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		E4DABC8C14AA693100E27812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		E4DABC8E14AA693100E27812 /* helloWorldAppToGitHubViewController.h */ = {isa = PBXFileReference; path = helloWorldAppToGitHubViewController.h; sourceTree = "<group>"; };
+		E4DABC8E14AA693100E27812 /* helloWorldAppToGitHubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorldAppToGitHubViewController.h; sourceTree = "<group>"; };
 		E4DABC8F14AA693200E27812 /* helloWorldAppToGitHubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldAppToGitHubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
